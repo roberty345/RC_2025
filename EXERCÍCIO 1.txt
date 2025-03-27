@@ -1,0 +1,7 @@
+EXERCÍCIO 1
+
+1-R:PAN-Porque tem  uma ligação entre relevante pessoal.
+2-R:LAN-Porque é uma rede local mais aberta.
+3-R:CAN-Porque é uma rede muito maior.
+4-R:LAN-Os dois equipamentos estão ligado na mesma rede local.
+5-R:PAN-Porque tem uma ligação relevante pessoal.
