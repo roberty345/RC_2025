@@ -1,5 +1,13 @@
 Perguntas 
 A-R: ele ira enviar os dados para outros computadores que estão ligados a rede com hub.
 B-R: se a rede estiver ligada a um switch os dados enviados ira para o computador certo que foi escolhido, diferente do hub.
-C-R: Desvantagens: não é melhor que o switch, não envia os dados para o computador certo.
+C-R: HUB-Desvantagens: não é melhor que o switch, não envia os dados para o computador certo.
      Vantagem: É mais barato que o hub.
+
+Correção
+
+C-R:HUB - Desvantagens:Baixo desempenho, alto conjestionamento.
+Vantagens: Simplicidades
+
+SWITCH - Desvantagem: Mais cara, problema de disponibilidade.
+Vantagens - Aumenta o desempenho dunner, permite  aumentação entre NIC é diferente.
