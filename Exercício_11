@@ -1,0 +1,7 @@
+Perguntas   
+      Função                        |Bridge|   |Switch|     |Router|
+1-Liga segmentos da mesma rede-         x           x               
+2-Encaminhapor endereço MAC   -         x           x                   
+3-Encaminha por endereço IP   -                               x            
+4-Acede á Internet            -                               x           
+5-trabalha em que camada OSI  -     Camada 2| Camada 2|  Camada 3|               
