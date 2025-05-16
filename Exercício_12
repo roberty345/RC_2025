@@ -6,8 +6,8 @@
                     |Os gateways também podem usar IP, mas sua função principal é conectar redes com protocolos diferentes, podendo atuar em várias camadas do modelo OSI.|
 
 
-|Traduz protocolos - | Router: usam protocolos como IP, OSPF, BGP, RIP para encaminhar pacotes entre redes|       
-                     |Gateway: sua função principal é conectar redes com protocolos diferentes, podendo atuar em várias camadas do modelo OSI.|
+|Traduz protocolos - | Router: não, usam protocolos como IP, OSPF, BGP, RIP para encaminhar pacotes entre redes|       
+                     |Gateway: Sim, sua função principal é conectar redes com protocolos diferentes, podendo atuar em várias camadas do modelo OSI.|
 
-|Encaminha tráfego - |Routers: encaminham o tráfego para os endereços IP dos dispositivos utilizando pacotes de rede que transportam ficheiros, comunicações, etc.|
-                     |Gateway: um gateway direciona o tráfego de rede de estações de trabalho internas para redes externas, facilitando o acesso a sites e serviços online.|
+|Encaminha tráfego - |Routers: Sim, encaminham o tráfego para os endereços IP dos dispositivos utilizando pacotes de rede que transportam ficheiros, comunicações, etc.|
+                     |Gateway: Sim, gateway direciona o tráfego de rede de estações de trabalho internas para redes externas, facilitando o acesso a sites e serviços online.|
