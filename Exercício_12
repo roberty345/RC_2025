@@ -1,0 +1,13 @@
+|Função             |Gateway           | Router|
+                    |                  |       | 
+|Interliga redes -  |Sim, o gateway e o roteador podem usar os mesmos protocolos, principalmente o IP (Internet Protocol).
+                    |Por quê?
+                    |Os roteadores funcionam na Camada 3 (Rede) e usam protocolos como IP, OSPF, BGP, RIP para encaminhar pacotes entre redes.
+                    |Os gateways também podem usar IP, mas sua função principal é conectar redes com protocolos diferentes, podendo atuar em várias camadas do modelo OSI.|
+
+
+|Traduz protocolos - | Router: usam protocolos como IP, OSPF, BGP, RIP para encaminhar pacotes entre redes|       
+                     |Gateway: sua função principal é conectar redes com protocolos diferentes, podendo atuar em várias camadas do modelo OSI.|
+
+|Encaminha tráfego - |Routers: encaminham o tráfego para os endereços IP dos dispositivos utilizando pacotes de rede que transportam ficheiros, comunicações, etc.|
+                     |Gateway: um gateway direciona o tráfego de rede de estações de trabalho internas para redes externas, facilitando o acesso a sites e serviços online.|
