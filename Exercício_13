@@ -1,0 +1,42 @@
+Perguntas
+1-R: 1-Fisico
+     2-Ligações de dados
+     3-Redes
+     4-Transporte
+     5-Sessão
+     6-Apresentação
+     7-Aplicação
+
+2.1-R:Fisico: Se refere ao meio físico de comunicação e às tecnologias para transmitir dados por esse meio (Por exemplo: Cabo fibra óptica, cabos de cobre e ar.
+Ligações de dados: A camada de enlace de dados se refere às tecnologias usadas para conectar duas máquinas em uma rede onde a camada física já existe.(Por exemplo: Cabo Ethernet.
+Redes: A camada de rede preocupa com conceitos como roteamento e encaminhamento e endereçamento em várias redesconectadas de nós ou de máquinas(Por exemplo: Na Internet, o Internet Protocol v4 (IPv4) e o IPv6 são usados ​​como os principais protocolos da camada de rede.
+Transporte: O foco principal da camada de transporte é garantir que os pacotes de dados cheguem na ordem correta, sem perdas nem erros, ou que possam ser recuperados sem complicações, se necessário(Por exemplo:usam  (TCP), um protocolo baseado em conexão quase sem perdas, e o User Datagram Protocol (UDP), um protocolo sem conexão com perdas.(Por exemplo, em compartilhamentos de arquivos), enquanto o UDP é usado quando a retenção de todos os pacotes é menos crítica (por exemplo, em streaming de vídeos).
+Sessão: A camada de sessão é responsável pela coordenação de rede entre duas aplicações separadas em uma sessão.Essa sessão gerencia o ínicio e o término da conexão individual da aplicações( Contocolos  usados é a Network File System (NFS) e o Server Message Block (SMB).
+Apresentação: A camada de apresentação se preocupa principalmente com a sintaxe dos próprios dados para as aplicações enviarem e consumirem(Linguagens usadas para descrevera estrutura de dados é  Hypertext Markup Language (HTML), JavaScript Object Notation (JSON).
+Aplicação: A camada de aplicação se preocupa com o tipo específico da aplicação em si e seus métodos de comunicação padronizados(Por exemplo: navegadores que podem ser usados são  HyperText Transfer Protocol Secure (HTTPS), e clientes de e-mail e HTTP podem se comunicar usando POP3 (Post Office Protocol versão 3) e SMTP (Simple Mail Transfer Protocol).
+
+
+2.2-R:Camada Física : Danos físicos no cabo (cabo partido, desprotegido).
+
+Camada de Ligação de Dados : Falhas na detecção de erros, congestionamento do meio de transmissão (cabo com poucos bits por segundo).
+
+Camada de Rede :Endereços IP incorretos.
+
+Camada de Transporte :Falhas na sequência de segmentos de dados (ordem incorreta).
+
+Camada de Sessão : Falhas na gestão de conexões (sessões pendentes).
+
+Camada de Apresentação : Falhas na codificação de dados (códigos incorretos).
+
+Camada de Aplicação :  ataques à segurança.
+
+2.3-R: Camada Física- Para testar cabos, conectores e sinais, podes usar ferramentas como multímetros, certificadores de cabos, e analisadores de espectro.
+Camada de Ligação de Dados- Ferramentas como Wireshark podem ajudar a capturar e analisar pacotes de rede para verificar problemas de endereçamento MAC e colisões.
+Camada de Rede - Comandos como ping e tracert (Windows) ou traceroute (Linux/macOS) são úteis para verificar conectividade e latência entre dispositivos.
+Camada de Transporte- Testes com netstat, telnet e nc (netcat) podem ajudar a diagnosticar portas abertas e conexões de transporte TCP/UDP.
+Camada de Sessão- Ferramentas de logs e análise de sessões, como tcpdump, ajudam a verificar se as sessões estão sendo estabelecidas corretamente.
+Camada de Apresentação- Para validar a correta codificação e encriptação de dados, podes usar ferramentas específicas como OpenSSL.
+Camada de Aplicação - Testes de software, navegadores, e depuração de APIs ajudam a identificar problemas nesta camada.
+
+
+
