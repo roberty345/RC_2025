@@ -1,0 +1,21 @@
+Perguntas
+_________________________________________________________________________________________________________________________________________________________________________  
+Protocolo    |         Função principal                                           |        Camada do modelo TCP/IP           |       Exemplo  de utilização             |
+_____________|____________________________________________________________________|__________________________________________|__________________________________________|
+HTTPS        | Ele garante a segurança da comunicação  entre                      |                                          |                                          |   
+             | um navegador e um servidor e faz isso criptografando               |  Camada aplicação 4                      |             Navegar na web               | 
+             | as informações                                                     |                                          |                                          |
+_____________|___________________________________________________________________ |__________________________________________|__________________________________________|
+TCP          |Ele  garante a comunicação que é confiável e bem organizada         |                                          |                                          |
+             |organizada entre computadores, garantindo que os dados cheguem      |  Camada de tranporte                     |         Bamcos de dados,navegadores e    |
+             |ao destino da melhor forma e bem completa                           |                                          |                   e-mail                 |
+_____________|____________________________________________________________________|__________________________________________|__________________________________________|
+DNS          |Ele é oq traduz nomes de domínio (Por exemplo: www.example.pt)      |  Camada de aplicação 4                   | Escreve google.com e ser levado ao site  |
+_____________|____________________________________________________________________|__________________________________________|__________________________________________|     
+ICMP         |Ele fornece mensagens de controlo erros para o protocolo IP,        |                                          |                                          |
+             | permite que dispositivos comuniquem sobre os problemas de rede     |  Camada de internet  2                   |       Transferência de ficheiros         |                          |
+             |(Por exemplo: pacotes não entregues,sobre carga e rota desconhecida |                                          |                                          |
+_____________|____________________________________________________________________|__________________________________________|__________________________________________|
+FTP          |Ele permiti transferência de arquivos entre computadores            |                                          |                                          |
+             |clientes e servidores, por uma rede TCP/IP,(Por exemplo: internet)  |  Camada de aplicação 4                   |        Transferência de ficheiros        |
+_____________|____________________________________________________________________|__________________________________________|__________________________________________|           
